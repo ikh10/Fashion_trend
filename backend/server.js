@@ -20,5 +20,5 @@ app.get("/",rootroute);
 app.use('/FashionTrends',productroute);
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`.bgBlue.white);
+    console.log(`Server is running on http://localhost:${PORT}`.bgBlue.black);
 })
